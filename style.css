@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: darkgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin: 0 20px;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    padding: 8px 16px;
+    outline: none;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    cursor: pointer;
+    border: 2px solid black;
+    background: cornflowerblue;
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 800px;
+}
+
+.main-content button {
+    margin-top: 22px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    background: red;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.pic-content {
+    position: relative;
+    width: 450px;
+    width: 450px;
+}
+
+img {
+    position: absolute;
+    max-width: 550px;
+    top: -290px;
+}
